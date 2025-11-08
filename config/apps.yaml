@@ -1,0 +1,21 @@
+apps:
+  - name: "示例应用"
+    bundleIdentifier: "com.example.app"
+    developerName: "Example Dev"
+    subtitle: "一个展示 AltStore 源结构的示例应用"
+    localizedDescription: |
+      在这里填写应用的详细介绍。你可以在 YAML 中编写多行文本，
+      这些文本会被完整写入最终的 feed.json。
+    iconURL: "https://example.com/assets/example-app/icon.png"
+    tintColor: "0A84FF"
+    category: "utilities"
+    screenshots:
+      - "https://example.com/assets/example-app/screenshot-1.png"
+      - "https://example.com/assets/example-app/screenshot-2.png"
+    appPermissions: []
+    versions:
+      - version: "1.0"
+        date: "2024-06-01T12:00:00+08:00"
+        localizedDescription: "首次发布。"
+        downloadURL: "https://example.com/downloads/example-app.ipa"
+        size: 12345678
