@@ -1,0 +1,13 @@
+source:
+  name: "示例个人源"
+  identifier: "com.example.altstore.source"
+  iconURL: "https://example.com/assets/icon.png"
+  tintColor: "34C759"
+  subtitle: "个人打包的 App"
+  description: |
+    这个仓库包含了我自己签名打包的一些 iOS 应用，通过 AltStore 发布。
+    修改 config/source.yaml 和 config/apps.yaml 后，执行脚本即可生成 feed.json。
+  websiteURL: "https://example.com"
+  contact:
+    email: "support@example.com"
+    twitter: "example"
